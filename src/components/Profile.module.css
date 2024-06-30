@@ -1,0 +1,70 @@
+.ProfileContainer {
+    border: 3px solid black;
+    border-radius: 16px;
+    width: 460px;
+}
+
+.ProfileImageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ProfileImage {
+    width: 184px;
+    background-color: rgba(24, 24, 24, 0.877);
+    border-radius: 50%;
+}
+
+.ProfileName {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.ProfileTag {
+    color: rgba(136, 128, 128, 0.687);
+    font-size: 20px;
+}
+
+.ProfileLocation {
+    color: rgba(136, 128, 128, 0.687);
+    font-size: 20px;
+}
+
+.ProfileList {
+    display: flex;
+    border-radius: 0 0 16px 16px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.ProfileListItem {
+    width: 167px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4px;
+    color: black;
+    border-top: 2px solid gray;
+    border-bottom: none;
+    background-color: rgb(231, 228, 228);
+}
+
+.ProfileListItem:not(:last-child) {
+    border-right: 2px solid gray;
+}
+
+.ProfileFollowers {
+    font-size: 20px;
+}
+
+.ProfileFollowersNumber {
+    font-size: 20px;
+    font-weight: 700;
+}

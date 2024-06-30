@@ -1,0 +1,40 @@
+.Table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+.Table,
+.TableHeadRow,
+.TableData {
+    border: 1px solid black;
+    width: calc(100%/3);
+}
+
+.TableHeadRow,
+.TableData {
+    text-align: center;
+    padding: 4px;
+}
+
+.TableHeadRow {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.825);
+}
+
+.TableData:first-child {
+    padding-left: 40px;
+    text-align: start;
+}
+
+.TableData {
+    vertical-align: middle;
+    text-transform: capitalize;
+}
+
+.TableRow:nth-child(odd) {
+    background-color: #9c969684;
+}
+
+.TableRow:nth-child(even) {
+    background-color: white;
+}
